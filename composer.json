@@ -1,0 +1,32 @@
+{
+    "name": "googledriver/valdirsillva",
+    "description": "Upload de imagens no Google Driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Valdir",
+            "email": "valdirpiresba@gmail.com"
+        }
+    ],
+    
+    "config":{
+        "vendor-dir": "vendor"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/",
+            "Tests\\": "tests" 
+        },
+
+        "classmap": [
+            "vendor/google/apiclient/src/Google"
+        ]
+
+    },
+
+    "require": {
+        "google/apiclient": "2.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

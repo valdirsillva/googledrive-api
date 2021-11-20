@@ -1,0 +1,13 @@
+/vendor/
+
+composer.phar
+composer.lock
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.env
+
+# Folder config file
+[Dd]esktop.ini
